@@ -1,0 +1,20 @@
+# Environment files and project folders created by Conda
+**/twin/
+**/.conda
+**/miniconda3/
+
+# Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Saved Models and Large Data (DO NOT UPLOAD THESE)
+# The training scripts create these files
+app/*.pkl
+app/*.pth
+app/scaler_lstm.pkl
+/data/*.csv
+
+# Streamlit Cache
+.streamlit/
